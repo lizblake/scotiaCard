@@ -13,6 +13,8 @@ export default {
     ScotiaCardItem,
   },
 };
+
+import details from '../assets/js/details.js';
 </script>
 
 <style>
