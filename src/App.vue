@@ -1,11 +1,6 @@
 <template>
 <div id="app">
-  <h1>To-Do List</h1>
-  <ul>
-    <li>
-      <scotia-card-item></scotia-card-item>
-    </li>
-  </ul>
+    <scotia-card-item></scotia-card-item>
 </div>
 </template>
 
