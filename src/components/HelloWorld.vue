@@ -1,41 +1,31 @@
 <template>
-<div class="taskbar">
-  <button class="add">Add</button>
-  <button class="background">Background</button>
-  <button class="title">Title</button>
-  <button class="delete">Delete</button>
-</div>
-<div class="card">
-  <div class="title">
-    <h1>scotia</h1>
-  </div>
-  <div class="paragraph">
-    <p>A local State College band specializing in grunge and centered around the lore of the Squonk. Scotia was originally established before March 2020 and made a post-covid return in September 2022 with two new members.</p>
-  </div>
-  <div class="image">
-    <img src="https://thesquonkisrealandthirstsforyourtears.com/IMG_3167.JPG"></img>
-  </div>
-  <div class="btn">
-      <button class="details">details</button>
-  </div>
-</div>
+  <h1>{{ msg }}</h1>
 
-<div class="card">
-  <h1 class="title">scotia</h1>
-  <p class="paragraph">A local State College band specializing in grunge and centered around the lore of the Squonk. Scotia was originally established before March 2020 and made a post-covid return in September 2022 with two new members.</p>
-  <img src="https://thesquonkisrealandthirstsforyourtears.com/IMG_3167.JPG" />
-  <div class="btn">
-      <button class="details">details</button>
-  </div>
-</div>
+  <p>
+    <a href="https://vitejs.dev/guide/features.html" target="_blank">
+      Vite Documentation
+    </a>
+    |
+    <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
+  </p>
+
+  <button type="button" @click="state.count++">count is: {{ state.count }}</button>
+  <p>
+    Edit
+    <code>components/HelloWorld.vue</code> to test hot module replacement.
+  </p>
 </template>
 
-<script>
-import index from "./js/index.js";
-export default {};
+<script setup>
+import { defineProps, reactive } from 'vue'
+defineProps({
+  msg: String
+})
+const state = reactive({ count: 0 })
 </script>
 
-<style>
-@import './css/app.css';
+<style scoped>
+a {
+  color: #42b983;
+}
 </style>
-
