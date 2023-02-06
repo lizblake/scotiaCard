@@ -3,19 +3,19 @@
   <h1>To-Do List</h1>
   <ul>
     <li>
-      <to-do-item></to-do-item>
+      <scotia-card-item></scotia-card-item>
     </li>
   </ul>
 </div>
 </template>
 
 <script>
-import ToDoItem from "./components/ToDoItem.vue";
+import ScotiaCardItem from './components/ScotiaCardItem.vue';
 
 export default {
   name: "app",
   components: {
-    ToDoItem,
+    ScotiaCardItem,
   },
 };
 </script>
