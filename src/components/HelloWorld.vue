@@ -1,12 +1,10 @@
 <template>
-<!--- Buttons --->
 <div class="taskbar">
   <button class="add">Add</button>
   <button class="background">Background</button>
   <button class="title">Title</button>
   <button class="delete">Delete</button>
 </div>
-<!--- Original Card --->
 <div class="card">
   <div class="title">
     <h1>scotia</h1>
@@ -22,7 +20,6 @@
   </div>
 </div>
 
-<!--- New Card --->
 <div class="card">
   <h1 class="title">scotia</h1>
   <p class="paragraph">A local State College band specializing in grunge and centered around the lore of the Squonk. Scotia was originally established before March 2020 and made a post-covid return in September 2022 with two new members.</p>
@@ -41,3 +38,4 @@ export default {};
 <style>
 @import './css/app.css';
 </style>
+
