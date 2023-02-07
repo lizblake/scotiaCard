@@ -1,7 +1,7 @@
 <template>
 <div id="app">
+   <taskbar-item></taskbar-item>
     <scotia-card-item></scotia-card-item>
-    <taskbar-item></taskbar-item>
 </div>
 </template>
 
