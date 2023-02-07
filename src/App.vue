@@ -14,7 +14,6 @@ export default {
     ScotiaCardItem, TaskbarItem,
   },
 };
-
 </script>
 <style>
 </style>
