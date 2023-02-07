@@ -6,13 +6,15 @@
 
 <script>
 import ScotiaCardItem from './components/ScotiaCardItem.vue';
+import TaskbarItem from './components/TaskbarItem';
 
 export default {
   name: "app",
   components: {
-    ScotiaCardItem,
+    ScotiaCardItem, TaskbarItem,
   },
 };
+
 </script>
 <style>
 </style>
